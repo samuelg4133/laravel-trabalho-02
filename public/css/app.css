@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #1e111d;
+}
+
+body {
+    background: #f5f4f3;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#root {
+    height: 100%;
+}
+
+header.header {
+    height: 64px;
+    width: 100%;
+    padding: 0 63px;
+    background: #006fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.header p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section.content-wrapper {
+    width: 85%;
+    margin: 48px auto;
+}
+
+table {
+    border-width: 2px;
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 4px;
+    width: 100%;
+}
+
+td,
+th {
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #abb3ff;
+}
+
+tr:hover {
+    background-color: #c9ccff;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #006fff;
+    border-radius: 2px;
+}
+
+div#action-btn {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+
+div#action-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    height: 32px;
+    width: 240px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#action-btn a:hover {
+    background-color: rgb(53, 53, 211);
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form fieldset legend {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+div.input-field {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 8px;
+}
+
+div.input-field label {
+    margin-right: 8px;
+}
+
+div.form-bttns {
+    margin: 24px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a#btn-cancel {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px;
+    width: 240px;
+    color: #fff;
+    background-color: red;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a#btn-cancel:hover{
+    background-color: rgb(233, 44, 44);
+}
+
+.button-primary{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    width: 240px;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 8px;
+    background-color: rgb(23, 194, 23);
+}
+
+.button-primary:hover{
+    color: #fff;
+    background-color: green;
+}
+
+.session-flash{
+    font-weight: bold;
+    color: #006fff;
+    font-size: 20px;
+}
+
+span small{
+    color: red;
+}
